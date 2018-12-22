@@ -16,4 +16,7 @@
     - https://search.google.com/test/mobile-friendly
     
 =======================================
+Sources: 
+
+- Project design - https://www.awwwards.com/sites/faded-app-landing-page-theme
  
