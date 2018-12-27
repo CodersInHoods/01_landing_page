@@ -8,4 +8,32 @@ body {
 
 /* ======================== */
 
-/* TO DO */
+.main__wrapper {
+    width: 90%;
+    background-color: #eee;
+    margin: auto;    
+}
+
+.navbar {
+    background-color: #eaffaa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.nav__list {
+    background-color: #00aaea;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav__list li {
+    margin: 10px;
+}
+
+.get__now {
+    background-color: #00aeaa;    
+}
+
