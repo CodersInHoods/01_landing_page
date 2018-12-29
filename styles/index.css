@@ -5,51 +5,59 @@
 body {
     font-size: 14px;
     width: 100%;
-    background-image: url("https://tinyurl.com/y8wq7lap");
+    background-image: url("https://tinyurl.com/ya78tgrw");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
+    background-attachment: fixed;
 }
 
-/*-- Hero Section --*/
+/*- Hero Section -*/
 
 .main__wrapper {
     width: 100%;
-    margin: auto;    
+    padding-bottom: 250px;
+    margin: auto; 
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+/*-- Navbar --*/
 
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 50px;
+    height: 70px;
     top: 0;
     position: fixed;
     width: 100%;
-    font-size: 16px;
-    background-color: #000;
+    font-size: 18px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    margin-left: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 .logo img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .nav__list {
+    margin-right: -100px;
     display: flex;
     flex-direction: row;    
     text-align: center;
-    justify-content: space-around;
-    width: 700px;
+    justify-content: center;
 }
 
 .nav__list li {
-    margin: 0 10px;
     list-style: none;
+    margin: 2px 15px;
 }
 
 .nav__list li a {
@@ -59,32 +67,106 @@ body {
     padding-bottom: 5px;
 }
 
-
 .nav__list li a:hover {
     border-bottom: 2px solid #fff;
 }
 
 .get__now {
-    width: 100px;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
+    margin-right: -60px;
+    width: 400px;
+    text-align: center;  
 }
 
 .get__now a {
-    text-decoration: none; 
-    color: #fff;    
-    border: 1px solid #fff;
-    padding: 8px 10px;
-    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: solid; 
+    border: 2px solid #fff;   
+    border-radius: 25px; 
+    padding: 10px 67px;    
+    width: 400px;    
 }
 
 .get__now a:hover {
-    color: #f500f9;
+    color: #6c0081;
     background-color: #fff;
 }
 
+/* -- Main content --*/
+
 .main__content {
-    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 70px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 150px;  
 }
 
+.content__wrapper {
+    display: flex;
+    flex-direction: column;    
+    padding: 15px;
+    width: 50%;
+}
+
+.content__wrapper h1 {
+    font-size: 50px;
+}
+
+.content__wrapper p {
+    font-size: 20px
+}
+
+.content__btns {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;     
+    text-align: center;
+}
+
+.content__btns a {
+    text-decoration: none;
+    border: 2px solid #fff;    
+    font-size: 20px;
+    padding: 10px 5px;
+    width: 200px;             
+    border-radius: 25px;    
+    margin-right: 20px;    
+}
+
+.left__btn{
+    color: #000;    
+    background-color: #fff;
+}
+
+.left__btn:hover {
+    color: #fff;
+    background: transparent;
+}
+
+.right__btn{
+    color: #fff;    
+}
+
+.right__btn:hover {
+    color: #000;
+    background: #fff;   
+}
+
+.hero__img {
+    width: 600px;  
+    height: 500px;
+    position: absolute;
+    right: 0;
+    float: right;
+}
+
+.phone__image {
+    position: relative;
+    width: 90%;
+    margin-left: 10%;
+}
