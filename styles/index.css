@@ -4,25 +4,30 @@
 
 body {
     font-size: 14px;
+    width: 100%;
+    background-image: url("https://tinyurl.com/y8wq7lap");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
 }
 
-/* ======================== */
+/*-- Hero Section --*/
 
 .main__wrapper {
-    width: 90%;
-    background-color: #eee;
+    width: 100%;
     margin: auto;    
 }
 
 .navbar {
-    background-color: #eaffaa;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 50px;
     top: 0;
     position: fixed;
-    width: 80%;
+    width: 100%;
+    font-size: 16px;
+    background-color: #000;
 }
 
 .logo {
@@ -49,9 +54,14 @@ body {
 
 .nav__list li a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    border-bottom: 2px transparent;
+    padding-bottom: 5px;
 }
 
+.nav__list li a:hover {
+    border-bottom: 2px solid #fff;
+}
 
 .get__now {
     width: 100px;
@@ -62,9 +72,16 @@ body {
 
 .get__now a {
     text-decoration: none; 
-    color: #000;    
+    color: #fff;    
+    border: 1px solid #fff;
+    padding: 8px 10px;
+    border-radius: 10px;
 }
 
+.get__now a:hover {
+    color: #f500f9;
+    background-color: #fff;
+}
 
 .main__content {
     margin-top: 100px;
