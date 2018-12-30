@@ -457,6 +457,78 @@
 /* ======================== */
 
 /* Video demo */
+.demo {
+    min-height: 80vh;
+    background: url(../images/city.jpg) no-repeat center center;
+    background-size: cover;
+}
 
+.demo .demo_content {
+    min-height: 80vh;
+    background-image: linear-gradient(90deg, rgba(142, 84, 233, 0.6) 0%, rgba(71, 118, 230, 0.6) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.demo .demo_content .triangle.top {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    height: 300px;
+    width: 150%;
+    transform: rotate(-5.8deg) translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.demo .demo_content .play_btn {
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.demo .demo_content .play_btn span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 27px solid transparent;
+    border-bottom: 27px solid transparent;
+    border-left: 40px solid #fff;
+    transform: translate(-35%, -50%);
+}
+
+.demo .demo_content h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.demo .demo_content p {
+    width: 40%;
+    color: #fff;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.demo .demo_content .triangle.bottom {
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    height: 300px;
+    width: 150%;
+    transform: rotate(-5.8deg) translate(-50%, -50%);
+    background-color: #fff;
+}
 
 /* ======================== */
