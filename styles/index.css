@@ -10,6 +10,7 @@ body {
     background-size: 100% auto;
     background-position: center top;
     background-attachment: fixed;
+    overflow:  hidden scroll;    
 }
 
 /*- Hero Section -*/
@@ -36,6 +37,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*--- Navbar logo ---*/
+
 .logo {
     margin-left: 50px;
     width: 70px;
@@ -46,6 +49,8 @@ body {
     width: 100%;
     border-radius: 10px;
 }
+
+/*--- Navbar lists ---*/
 
 .nav__list {
     margin-right: -100px;
@@ -70,6 +75,8 @@ body {
 .nav__list li a:hover {
     border-bottom: 2px solid #fff;
 }
+
+/*--- Navbar "get now" button ---*/
 
 .get__now {
     margin-right: -60px;
@@ -170,3 +177,14 @@ body {
     width: 90%;
     margin-left: 10%;
 }
+
+/*-- Background image-styling: add rectangle at the bottom --*/
+
+.triangle {
+    padding-top: 5%;
+    width: 0;
+    height: 0;  
+    border-bottom: 200px solid white;
+    border-left: 1420px solid transparent;
+}
+
