@@ -116,6 +116,7 @@ body {
     display: flex;
     flex-direction: column;    
     padding: 15px;
+    margin-left: 5%; 
     width: 50%;
 }
 
@@ -175,13 +176,13 @@ body {
 .phone__image {
     position: relative;
     width: 90%;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 
 /*-- Background image-styling: add rectangle at the bottom --*/
 
 .triangle {
-    padding-top: 5%;
+    padding-top: 3%;
     width: 0;
     height: 0;  
     border-bottom: 200px solid white;
