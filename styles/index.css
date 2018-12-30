@@ -176,10 +176,122 @@
     position: absolute;
     bottom: -5%;
     left: 50%;
-    height: 400px;
+    height: 300px;
     width: 150%;
-    transform: rotate(-5deg) translate(-50%, 0%);
+    transform: rotate(-5.8deg) translate(-50%, 0%);
     background-color: #fff;
     z-index: -1;
 }
 /* ==================== */
+
+
+/* Overview */
+
+.overview {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 8em 0;
+}
+
+.overview__header h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.overview__header hr {
+    width: 11%;
+    border-top: 3px dotted #3c6cee;
+    position: relative;
+}
+
+.overview__header hr:after {
+    content: '...';
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 5em;
+    background-color: #fff;
+    text-align: center;
+    color: #3c6cee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 50px;
+    transform: translate(-50%, -57%);
+}
+
+.overview__header p {
+    width: 50%;
+    margin: 1.5em auto;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.overview__body {
+    padding: 4em 0;
+}
+
+.overview__body .advantages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.overview__body .advantages .advantages__item {
+    width: 340px;
+    padding: 2em 2.1em;
+    transition: .3s;
+    position: relative;
+}
+
+.overview__body .advantages .advantages__item:hover {
+    box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+}
+
+.overview__body .advantages .advantages__item:hover:after {
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(45deg);
+}
+
+.advantages__item .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages__item .image img {
+    height: 100px;
+    display: block;
+    margin: 2em auto;
+}
+
+.advantages__item .image hr {
+    width: 15%;
+    border-top: 3px solid #9e31cc;
+}
+
+.advantages__item .details h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin: 2em 0 1em;
+}
+
+.advantages__item .details p {
+    font-size: 1.3em;
+    line-height: 1.6em;
+    text-align: center;
+}
