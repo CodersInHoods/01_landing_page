@@ -7,9 +7,9 @@ body {
     width: 100%;
     background-image: url("https://tinyurl.com/ya78tgrw");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 845px;
     background-position: center top;
-    background-attachment: fixed;
+    background-attachment: ;
     overflow:  hidden scroll;    
 }
 
@@ -19,6 +19,7 @@ body {
     width: 100%;
     padding-bottom: 250px;
     margin: auto; 
+    margin-bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -105,6 +106,7 @@ body {
     width: 90%;
     margin: auto;
     margin-top: 70px; 
+    margin-bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -182,10 +184,55 @@ body {
 /*-- Background image-styling: add rectangle at the bottom --*/
 
 .triangle {
-    padding-top: 3%;
+    padding-top: 2%;
     width: 0;
     height: 0;  
     border-bottom: 200px solid white;
     border-left: 1420px solid transparent;
+    margin-bottom: -250px;
 }
 
+/*===================================================*/
+
+/*- Overview Section -*/
+.overview__section {
+    padding: 5px;
+    text-align: center;
+}
+
+.overview__text {
+    margin: 80px auto; 
+    width: 630px;
+    border: solid; 
+    font-size: 18px;       
+}
+
+.overview__text h3 {
+    font-size: 40px;
+}
+
+.overview__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    border: solid;
+}
+
+.details__boxes {
+    width: 250px;
+    padding: 20px 0;
+    margin: 1px 10px;
+    border: solid; 
+    font-size: 16px;
+}
+
+.fas {
+    margin-top: 20px;    
+}
+
+.details__boxes h6 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
