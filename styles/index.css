@@ -392,3 +392,71 @@
     text-align: center;
 }
 /* ======================== */
+
+/*Screenshots*/
+
+.screenshots__header hr {
+    border-top: 3px dotted #3c6cee;
+}
+
+.screenshots__header hr:after {
+    background-color: #fff;
+    color: #3c6cee;
+}
+
+.screenshots__body .body_nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.screenshots__body .body_nav li {
+    padding: 1em 2em;
+    margin: 1em;
+    min-width: 100px;
+    border-radius: 29px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+.screenshots__body .body_nav li:first-child {
+    border-color: #3c6cee;
+}
+
+.screenshots__body .body_nav li a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-size: 1.2em;
+}
+
+.screenshots__body .body_carousel .images {
+    display: flex;
+    justify-content: space-around;
+    padding: 5em 0;
+}
+
+.screenshots__body .body_carousel .images .images_item {
+    height: 550px;
+    width: 350px;
+    background-color: #3c6cee;
+}
+
+.screenshots__body .body_carousel .images .images_item:nth-child(even) {
+    background-color: #8E54E9;
+}
+
+.screenshots__body .body_carousel .dots {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    color: #3c6cee;
+    font-size: 10em;
+    height: 40px;
+}
+/* ======================== */
+
+/* Video demo */
+
+
+/* ======================== */
