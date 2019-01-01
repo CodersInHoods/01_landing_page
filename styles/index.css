@@ -225,6 +225,7 @@
     background-color: #fff;
     z-index: -1;
 }
+
 /* ==================== */
 
 
@@ -393,6 +394,7 @@
     line-height: 1.6em;
     text-align: center;
 }
+
 /* ======================== */
 
 /*Screenshots*/
@@ -456,6 +458,7 @@
     font-size: 10em;
     height: 40px;
 }
+
 /* ======================== */
 
 /* Video demo */
@@ -606,6 +609,7 @@
     font-size: 1.2em;
     color: #3e3e3e;
 }
+
 /* ======================== */
 
 
@@ -704,6 +708,7 @@
     align-items: center;
     padding: 1.5em;
 }
+
 /* ======================== */
 
 
@@ -953,5 +958,95 @@
 .posts__body .blog button:hover {
     color: #fff;
     background-image: linear-gradient(45deg, #3c6cee, #8E54E9);
+}
+
+/* ======================== */
+
+/* App */
+.app {
+    min-height: 600px;
+    background-image: radial-gradient(circle at top right, #f5f5f5, #f5f5f5 10%, #fff 10%, #fff 44%, #f5f5f5 44%, #f5f5f5 50%, #eee 50%);
+    position: relative;
+    overflow: hidden;
+}
+
+.app .tablet {
+    position: absolute;
+    bottom: -150px;
+    right: -350px;
+}
+
+.details {
+    width: 90%;
+    max-width: 500px;
+}
+
+.details h2 {
+    text-align: left;
+}
+
+.details hr {
+    width: 40%;
+    display: inline-block;
+    border-top: 3px dotted #3c6cee;
+}
+
+.details hr:after {
+    background-color: #eee;
+    color: #3c6cee;
+}
+
+.details p {
+    width: 100%;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.app .links h3 {
+    font-size: 1.8em;
+}
+
+.app .stores {
+    display: flex;
+}
+
+.app .stores .apple,
+.app .stores .google {
+    background: #000;
+    border-radius: 5px;
+    padding: 0.6em 1em 0.1em;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.app .stores .google {
+    margin: 0 1em;
+}
+
+.app .stores .apple:after,
+.app .stores .google:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+    background-image: linear-gradient(90deg, #3c6cee, #8E54E9);
+}
+
+.app .stores .apple img,
+.app .stores .google img {
+    position: relative;
+    z-index: 10;
+}
+
+.app .stores .apple:hover:after,
+.app .stores .google:hover:after {
+    opacity: 1;
 }
 /* ======================== */
