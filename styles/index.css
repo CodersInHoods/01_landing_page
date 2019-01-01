@@ -4,23 +4,34 @@
 
 body {
     font-size: 14px;
-    width: 100%;
-    background-image: url("https://tinyurl.com/ya78tgrw");
-    background-repeat: no-repeat;
-    background-size: 100% 845px;
-    background-position: center top;
-    background-attachment: ;
-    overflow:  hidden scroll;    
+    width: 100%; 
+    overflow: hidden scroll;   
 }
 
 /*- Hero Section -*/
 
 .main__wrapper {
+    width: 100vw;
+    height: 100vh;  
+}
+
+/*-- Main background --*/
+
+.main__background {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;            
+    z-index: -2;
+}
+
+.darken__background {
+    position: absolute;
+    top: 0;
     width: 100%;
-    padding-bottom: 250px;
-    margin: auto; 
-    margin-bottom: 0;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 
 /*-- Navbar --*/
@@ -29,13 +40,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 70px;
-    top: 0;
+    height: 0;
     position: fixed;
     width: 100%;
     font-size: 18px;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 /*--- Navbar logo ---*/
@@ -109,17 +119,18 @@ body {
     margin-bottom: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #fff;
-    padding-top: 150px;  
+    padding-top: 200px;  
 }
 
 .content__wrapper {
     display: flex;
     flex-direction: column;    
+    justify-content: flex-end;
     padding: 15px;
     margin-left: 5%; 
-    width: 50%;
+    width: 900px;    
 }
 
 .content__wrapper h1 {
@@ -127,7 +138,7 @@ body {
 }
 
 .content__wrapper p {
-    font-size: 20px
+    font-size: 20px    
 }
 
 .content__btns {
@@ -169,20 +180,21 @@ body {
 
 .hero__img {
     width: 600px;  
-    height: 500px;
-    position: absolute;
+    height: 500px;    
     right: 0;
-    float: right;
+    float: right;       
+    justify-self: flex-end;
+    align-self: flex-end;
 }
 
 .phone__image {
-    position: relative;
     width: 90%;
     margin-left: 0%;
 }
 
 /*-- Background image-styling: add rectangle at the bottom --*/
 
+/* Defunct - hard to make it works across different screen resolution.
 .triangle {
     padding-top: 2%;
     width: 0;
@@ -191,6 +203,7 @@ body {
     border-left: 1420px solid transparent;
     margin-bottom: -250px;
 }
+*/
 
 /*===================================================*/
 
@@ -201,9 +214,9 @@ body {
 }
 
 .overview__text {
-    margin: 80px auto; 
-    width: 630px;
-    border: solid; 
+    margin: 0px auto;
+    margin-bottom: 60px; 
+    width: 630px;     
     font-size: 18px;       
 }
 
@@ -215,20 +228,24 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px;
-    border: solid;
+    padding: 10px;    
 }
 
 .details__boxes {
-    width: 250px;
+    width: 350px;
     padding: 20px 0;
-    margin: 1px 10px;
-    border: solid; 
+    margin: 1px 10px;     
     font-size: 16px;
 }
 
 .fas {
     margin-top: 20px;    
+    color:  hsl(290, 79%, 33%);
+}
+
+.details__boxes hr {
+    width: 15%;
+    border-top: 3px solid #6c0081;    
 }
 
 .details__boxes h6 {
