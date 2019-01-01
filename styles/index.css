@@ -832,6 +832,7 @@
 }
 
 .price_list__card:nth-child(2) {
+    transform: scale(1.05);
     border: none;
     box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
 }
@@ -854,4 +855,103 @@
     background-color: #3c6cee;
 }
 
+/* ======================== */
+
+/* Posts */
+.posts__header hr {
+    border-top: 3px dotted #3c6cee;
+}
+
+.posts__header hr:after {
+    background-color: #fff;
+    color: #3c6cee;
+}
+
+.posts__header p {
+    font-size: 1.3em;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.posts__cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.posts__cards .cards_item {
+    width: 400px;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.posts__cards .cards_item .image {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.posts__cards .cards_item .image img {
+    height: 100%;
+    min-width: 100%;
+}
+
+.posts__cards .cards_item .image:after {
+    content: '';
+    display: block;
+    height: 300px;
+    width: 500px;
+    transform: rotate(8deg);
+    background-color: #eeeeee;
+    position: absolute;
+    bottom: -270px;
+    left: -70px;
+}
+
+.posts__cards .cards_item .content {
+    background-color: #eeeeee;
+    padding: 1em 2em;
+    min-height: 300px;
+}
+
+.posts__cards .cards_item .content h4 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #3e3e3e;
+}
+
+.posts__cards .cards_item .content .date {
+    color: #929292;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.posts__cards .cards_item .content a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #3c6cee;
+    text-decoration: none;
+    margin: 1em 0;
+    display: inline-block;
+}
+
+.posts__body .blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0;
+}
+
+.posts__body .blog button {
+    border-color: #3c6cee;
+    color: #3c6cee;
+}
+
+.posts__body .blog button:hover {
+    color: #fff;
+    background-image: linear-gradient(45deg, #3c6cee, #8E54E9);
+}
 /* ======================== */
