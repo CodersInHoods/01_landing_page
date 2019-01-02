@@ -208,8 +208,13 @@ body {
 /*===================================================*/
 
 /*- Overview Section -*/
-.overview__section {
-    padding: 5px;
+
+.section {
+    padding-bottom: 80px ;
+    width: 100%;
+}
+
+.overview {
     text-align: center;
 }
 
@@ -227,29 +232,39 @@ body {
 .overview__details {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin: auto;
     padding: 10px;    
 }
 
 .details__boxes {
-    width: 350px;
-    padding: 20px 0;
+    width: 300px;
+    padding: 20px 10px;
     margin: 1px 10px;     
     font-size: 16px;
 }
 
 .fas {
     margin-top: 20px;    
-    color:  hsl(290, 79%, 33%);
+    color:  #4776e6;
 }
 
 .details__boxes hr {
-    width: 15%;
-    border-top: 3px solid #6c0081;    
+    width: 7%;
+    border-top: 3px solid #4776e6;    
+    margin-top: 30px;
 }
 
 .details__boxes h6 {
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 30px;
+}
+
+.details__boxes p {
+    font-size: 16px;
+}
+
+.details__boxes:hover {
+    box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
 }
