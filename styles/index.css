@@ -13,15 +13,15 @@ body {
 .main__wrapper {
     width: 100vw;
     height: 100vh;  
+    position: relative;    
 }
 
 /*-- Main background --*/
 
 .main__background {
     position: absolute;
-    top: 0;
     height: 100%;
-    width: 100%;            
+    width: 100%;   
     z-index: -2;
 }
 
@@ -40,7 +40,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 0;
+    height: 100px;
     position: fixed;
     width: 100%;
     font-size: 18px;
@@ -113,15 +113,16 @@ body {
 /* -- Main content --*/
 
 .main__content {
-    width: 90%;
-    margin: auto;
-    margin-top: 70px; 
+    width: 100%;
+    height: calc(100vh - 100px);
+    margin: 0 auto;
     margin-bottom: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     color: #fff;
-    padding-top: 200px;  
+    padding-top: 100px;
+    padding-bottom: 100px;  
 }
 
 .content__wrapper {
@@ -154,7 +155,8 @@ body {
     border: 2px solid #fff;    
     font-size: 20px;
     padding: 10px 5px;
-    width: 200px;             
+    min-height: 10px;
+    min-width: 200px;             
     border-radius: 25px;    
     margin-right: 20px;    
 }
@@ -179,16 +181,14 @@ body {
 }
 
 .hero__img {
-    width: 600px;  
-    height: 500px;    
-    right: 0;
-    float: right;       
-    justify-self: flex-end;
-    align-self: flex-end;
+    width: 35%;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .phone__image {
-    width: 90%;
+    height: 60vh;
     margin-left: 0%;
 }
 
@@ -212,6 +212,8 @@ body {
 .section {
     padding-bottom: 80px ;
     width: 100%;
+    height: 100%;   
+    background: white;
 }
 
 .overview {
