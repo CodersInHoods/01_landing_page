@@ -6,7 +6,18 @@ body {
     font-size: 14px;
     width: 100%; 
     overflow: hidden scroll;   
+    font-family: IBM Plex Sans;
 }
+
+/* Global */
+.section {
+    padding: 50px 0;
+}
+
+.header {
+    font-size: 40px;
+}
+
 
 /*- Hero Section -*/
 
@@ -230,10 +241,6 @@ body {
     font-size: 18px;       
 }
 
-.overview__text h3 {
-    font-size: 40px;
-}
-
 .overview__details {
     display: flex;
     flex-direction: row;
@@ -272,4 +279,68 @@ body {
 
 .details__boxes:hover {
     box-shadow: 0 5px 25px 0 rgba(5, 5, 5, 0.2);
+}
+
+
+/*- How It Works section -*/
+
+.how_it_works {
+    width: 100%;
+    text-align: center;
+    background-color: #6c0081;  
+    color: #fff;
+}
+
+.how_it_works_text {
+    width: 600px;
+    margin: auto;
+}
+
+.how_it_works .images {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;        
+}
+
+.how_it_works img {
+    margin: 0 30px;
+    align-self: center;
+}
+
+.how_it_works .features {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.how_it_works .features .boxes {    
+    width: 270px;
+    z-index: -0;
+}
+
+.how_it_works .features >hr {
+    position: absolute;
+    width: 750px;
+    margin-top: 22px;
+    margin-left: 120px;
+    border: none;
+    border-top: 1px solid #fff;
+}
+
+.how_it_works .features .boxes hr {
+    width: 5%;
+}
+
+.how_it_works .features .boxes .number{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6c0081;    
 }

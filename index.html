@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon.png">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/index.css"> 
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
@@ -56,7 +57,7 @@
 
     <div class="overview section">
         <div class="overview__text">
-            <h3>Overview</h3>
+            <h3 class="header">Overview</h3>
             <p>Lorem ipsum dolor sit amet consectur adipiscing elit proin leo leo ornare nec vulputate tempus velit nam id purus tellus henderit mi dapibus.</p>
         </div>
         <div class="overview__details">
@@ -97,26 +98,28 @@
     
     <!-- How It Works Section -->
 
-    <div class="how_it_works">
-            <div class="how_it_works_text">
-                <h3>How It Works</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel
-                    trisque purus justo vestibulum eget lectus non gravida ultrices.
-                </p>
-            </div>
-            <div class="how__it__works__img">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <div class="features">
+    <div class="how_it_works section">
+        <div class="how_it_works_text">
+            <h3 class="header">How It Works</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel
+                trisque purus justo vestibulum eget lectus non gravida ultrices.
+            </p>
+        </div>
+        <div class="images">
+            <img src="images/1.png" alt="">
+            <img src="images/2.png" alt="">
+            <img src="images/3.png" alt="">
+        </div>
+        <div class="features">
+            <hr>
+            <div class="boxes">
                 <p class="number">1</p>
                 <h3>Login app</h3>
                 <hr>
                 <p>Duis finibus odio sit amet nisi dictum et viverra libero semper donec</p>
             </div>
-            <div class="features">
+            <div class="boxes">
                 <p class="number">2</p>            
                 <h3>Data analysis</h3>
                 <hr>
@@ -125,13 +128,15 @@
                     ante sit amet malesuada justo diam
                 </p>
             </div>
-            <div class="features">
+            <div class="boxes">
                 <p class="number">3</p>            
                 <h3>Show result</h3>
                 <hr>
                 <p>Quisque viverra arcu non mi suscipit ut convallis nisi convallis phasellus</p>
             </div>
         </div>
+    </div>   
+    
 </body>
 </html>
 
