@@ -15,7 +15,8 @@ body {
 }
 
 .header {
-    font-size: 40px;
+    font-size: 35px;
+    text-transform: uppercase;
 }
 
 
@@ -343,4 +344,59 @@ body {
     justify-content: center;
     align-items: center;
     background: #6c0081;    
+}
+
+/*- Screenshot -*/
+
+.screenshot {
+    text-align: center;    
+}
+
+.screenshot_text {
+    width: 600px;
+    margin: auto;
+}
+
+.screenshot_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.screenshot_body .body_navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.screenshot_body .body_navbar li {
+    list-style: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin: 15px;
+    border: 1.5px solid #fff;
+    border-radius: 15px;
+}
+
+.screenshot_body .body_navbar li:first-child{
+    border-color: #6c0081;
+}
+
+.screenshot_body .body_navbar li:hover {
+    border-color: #6c0081;
+}
+
+.body_carousel {
+    display: flex;
+    margin: auto;
+}
+
+.body_images {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dots {
+    font-size: 50px;
+    color: #4776e6;
+      
 }
