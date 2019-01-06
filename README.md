@@ -22,4 +22,9 @@
 Sources: 
 
 - Project design - https://www.awwwards.com/sites/faded-app-landing-page-theme
- 
+
+# Solutions form our members
+
+| # | Contributor repo | Live|
+|---|---|---|
+| 1 | [Github repo](https://github.com/andrapetronela/landing_page) |[Live link](https://andrapetronela.github.io/landing_page/) |
