@@ -375,14 +375,15 @@ body {
     margin: 15px;
     border: 1.5px solid #fff;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .screenshot_body .body_navbar li:first-child{
-    border-color: #6c0081;
+    border-color: #4776e6;
 }
 
 .screenshot_body .body_navbar li:hover {
-    border-color: #6c0081;
+    border-color: #4776e6;
 }
 
 .body_carousel {
@@ -396,7 +397,22 @@ body {
 }
 
 .dots {
-    font-size: 100px;
-    color: #4776e6;
-      
+    margin: auto;     
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #4776e6;
+    background-color: #ffffff;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;    
+}
+
+.dot:first-child {
+    background-color: #4776e6;
 }
