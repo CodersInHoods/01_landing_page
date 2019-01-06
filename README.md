@@ -25,6 +25,6 @@ Sources:
 
 # Solutions form our members
 
-| # | Contributor repo | Live|
-|---|---|---|
-| 1 | [Github repo](https://github.com/andrapetronela/landing_page) |[Live link](https://andrapetronela.github.io/landing_page/) |
+| # | User id | Contributor repo | Live|
+|---|---|---|---|
+| 1 | [andrapetronela](https://github.com/andrapetronela) |[Github repo](https://github.com/andrapetronela/landing_page) |[Live link](https://andrapetronela.github.io/landing_page/) |
