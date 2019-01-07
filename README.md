@@ -29,3 +29,4 @@ Sources:
 |---|---|---|---|
 | 1 | [andrapetronela](https://github.com/andrapetronela) |[Github repo](https://github.com/andrapetronela/landing_page) |[Live link](https://andrapetronela.github.io/landing_page/) |
 | 2 | [CharaeKeow](https://github.com/CharaeKeow) |[Github repo](https://github.com/CharaeKeow/01_landing_page) |[Live link](https://charaekeow.github.io/01_landing_page/) |
+| 3 | [marcelreig](https://github.com/marcelreig) |[Github repo](https://github.com/MarcelReig/01_landing_page) |[Live link](https://marcelreig.github.io/01_landing_page/) |
