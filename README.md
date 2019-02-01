@@ -23,7 +23,7 @@ Sources:
 
 - Project design - https://www.awwwards.com/sites/faded-app-landing-page-theme
 
-# Our members' solutions
+# Community solutions:
 
 | # | User id | Contributor repo | Live|
 |---|---|---|---|
